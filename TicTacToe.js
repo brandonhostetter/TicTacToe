@@ -98,7 +98,6 @@ Page.initializeGameOverModal = function () {
 Page.drawBoard = function () {
     Page.bgContext.clearRect(0, 0, Page.canvasWidth, Page.canvasHeight);
     Page.bgContext.strokeStyle = 'rgba(165, 192, 179, 1)';
-    //Page.bgContext.strokeStyle = 'rgba(219, 221, 181, 1)';
 
     for (var i = 0; i < Page.boardLength; i++) {
         for (var j = 0; j < Page.boardLength; j++) {
